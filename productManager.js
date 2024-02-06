@@ -53,12 +53,12 @@ getProductById = (idProduct) =>{
 };
 
 const gestionadorProductos = new ProductManager ();
-gestionadorProductos.addProduct ('Cuadro perritos', 'blanco y negro', 1000, 'sin imagen', 'ad143', 20 );
-gestionadorProductos.addProduct ('Florero 3d', 'plateado', 750, 'sin imagen', 'ad144', 10 );
-gestionadorProductos.addProduct ('Maceta floreada', 'colores', 550, 'sin imagen', 'ad145', 40 );
-gestionadorProductos.addProduct ('Portallaves', 'pallets', 1200, 'sin imagen', 'ad146', 12 );
-gestionadorProductos.addProduct ('Difusor', 'vidrio', 2000, 'sin imagen', 'ad147', 10 );
-gestionadorProductos.addProduct ('Adorno gatito', 'dorado', 600, 'sin imagen', 'ad148', 30 );
+gestionadorProductos.addProduct ('Cuadro perritos', 'blanco y negro', 3500, 'sin imagen', 'ad143', 20 );
+gestionadorProductos.addProduct ('Florero 3d', 'plateado', 1500, 'sin imagen', 'ad144', 10 );
+gestionadorProductos.addProduct ('Maceta floreada', 'colores', 1100, 'sin imagen', 'ad145', 40 );
+gestionadorProductos.addProduct ('Portallaves', 'pallets', 3800, 'sin imagen', 'ad146', 12 );
+gestionadorProductos.addProduct ('Difusor', 'vidrio', 2750, 'sin imagen', 'ad147', 10 );
+gestionadorProductos.addProduct ('Adorno gatito', 'dorado', 1230, 'sin imagen', 'ad148', 30 );
 
 
 gestionadorProductos.getProductById(1);
